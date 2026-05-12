@@ -1,0 +1,24 @@
+# CEAeval inference-only runtime (tested on python 3.10).
+
+# --- PyTorch ---------------------------------------------------------------
+torch==2.5.1
+torchaudio==2.5.1
+torchvision==0.20.1
+# --- Transformers stack ----------------------------------------------------
+transformers==4.57.0
+accelerate==1.6.0
+huggingface_hub>=0.25
+safetensors>=0.4
+
+# --- Audio decoding (ffmpeg binary is still preferred for .m4a) ------------
+soundfile>=0.12
+librosa>=0.10
+
+# --- Misc ------------------------------------------------------------------
+numpy>=1.26,<2.3
+tqdm>=4.66
+typing-extensions>=4.10
+sentencepiece>=0.2
+packaging>=23
+matplotlib
+seaborn

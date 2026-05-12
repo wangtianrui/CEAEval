@@ -2,7 +2,13 @@
 license: cc-by-nc-4.0
 ---
 
+
 # CEAEval
+
+<p align="center">
+  <img src="logo.png" alt="CEAEval Logo" width="400"/>
+</p>
+
 
 Inference code for **CEAEval**, the framework introduced in our ACL paper
 *"Evaluating the Expressive Appropriateness of Speech in Rich Contexts"*.

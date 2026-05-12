@@ -8,8 +8,6 @@ __pycache__/
 *.jsonl
 *.json
 *.csv
-*.png
-*.txt
 
 # Distribution / packaging
 .Python
