@@ -84,7 +84,7 @@ point at it explicitly: `export FFMPEG_EXE=/abs/path/to/ffmpeg`.
 ```bash
 conda activate ceaeval
 bash scripts/download_models.sh          # fetches both checkpoints (~20 GB) into model_ckpts/
-bash scripts/run_examples.sh             # runs the 10-sample sanity check
+bash scripts/run_examples.sh             # runs the sample sanity check
 ```
 
 Run with Chinese prompts:
