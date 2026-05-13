@@ -116,7 +116,7 @@ The stage-1 text-only planner is
 ```
 model_ckpts/
 ├── ceaeval/        # scorer weights (tokenizer, safetensors, …)
-│   └── test_datas/ # 10 anonymised samples + audios
+│   └── test_datas/ # samples + audios
 └── qwen3_8b/       # Qwen3-8B snapshot
 ```
 
