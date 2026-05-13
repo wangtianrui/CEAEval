@@ -137,7 +137,6 @@ Other environment knobs (see `scripts/_common.sh`):
 | `PYBIN` | Python binary (default `python`) |
 | `CUDA_VISIBLE_DEVICES` | GPU selection (default `0`) |
 | `FFMPEG_EXE` | custom ffmpeg path |
-| `CEAEVAL_FORCE_M4A` | `1` (default) routes every non-m4a input through an in-memory M4A/AAC re-encode → decode so that the PCM matches the training distribution; `0` to decode directly. |
 
 
 ## Input schema
