@@ -5,7 +5,7 @@ that carries
 
 * the scorer checkpoint at the repo root (``config.json``,
   ``model-*.safetensors``, tokenizer, …) and
-* a ``test_datas/`` folder with 10 anonymised sanity-check samples and the
+* a ``test_datas/`` folder with sanity-check samples and the
   corresponding audios.
 
 Users can pass a local directory everywhere a model / data path is
